@@ -65,17 +65,21 @@ def get_args():
         type=float,
         help="Trigger alert if temperature drops below this value (°C)"
     )
-    # parser.add_argument(
-    #     "--map",
-    #     action="store_true",
-    #     help="Open location on Google Maps"
-    # )
+    parser.add_argument(
+        "--map",
+        action="store_true",
+        help="Open location on Google Maps"
+    )
     parser.add_argument(
     "--show-cache",
     action="store_true",
     help="Display cached weather data as a table"
      )
-
+    parser.add_argument(
+    "--export-csv",
+    action="store_true",
+    help="Export cached weather data to a CSV file."
+)
 
 
     return parser.parse_args()

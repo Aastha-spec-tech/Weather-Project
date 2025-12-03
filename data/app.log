@@ -599,3 +599,13 @@
 2025-12-04 01:54:46,057 [INFO] Cache file updated safely.
 2025-12-04 01:54:46,063 [WARNING] ALERT! Temperature 10.4°C exceeded threshold 1.0°C
 2025-12-04 01:54:55,456 [INFO] All cities processed.
+2025-12-04 04:53:30,718 [INFO] Cities to process: ['delhi']
+2025-12-04 04:53:30,721 [INFO] Caching enabled: True
+2025-12-04 04:53:30,722 [INFO] Alert temperature threshold: 4.0°C
+2025-12-04 04:53:30,726 [INFO] Processing city: delhi
+2025-12-04 04:53:30,727 [INFO] Coordinates for delhi: 28.6, 77.2
+2025-12-04 04:53:30,760 [WARNING] Cache expired for 'delhi' — returning stale data only.
+2025-12-04 04:53:30,762 [INFO] Fetching new weather data for delhi
+2025-12-04 04:53:32,186 [INFO] Cache file updated safely.
+2025-12-04 04:53:32,199 [WARNING] ALERT! Temperature 8.6°C exceeded threshold 4.0°C
+2025-12-04 04:53:39,656 [INFO] All cities processed.

@@ -1,16 +1,16 @@
 {
   "delhi": {
-    "timestamp": "2025-12-04T01:50:34.789627",
+    "timestamp": "2025-12-04T04:53:32.180074",
     "payload": {
-      "time": "2025-12-03T20:15",
+      "time": "2025-12-03T23:15",
       "interval": 900,
-      "temperature": 10.4,
-      "windspeed": 4.0,
-      "winddirection": 280,
+      "temperature": 8.6,
+      "windspeed": 4.2,
+      "winddirection": 290,
       "is_day": 0,
-      "weathercode": 1
+      "weathercode": 0
     },
-    "previous": 11.2
+    "previous": 10.4
   },
   "bengaluru": {
     "timestamp": "2025-12-04T01:00:38.744300",
